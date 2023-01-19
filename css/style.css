@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.5), 
+    rgba(4,9,30,0.5)),url(../img/hero-bg\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 5%;
+    position: relative;
+    padding-bottom: 230px;
+}
+
+.img1{
+    width: 45%;
+}
+
+.nav-link{
+    width: 30%;
+}
+
+.button{
+    width: 15%;
+}
+
+.img1 img{
+    width: 160px;
+}
+
+.nav-link ul{
+    display: flex;
+}
+
+.nav-link ul li{
+    list-style: none;
+}
+
+.nav-link ul li a{
+    text-decoration: none;
+    padding: 0 12px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.button a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 26px;
+    background-color: #fb2056;
+    padding: 12px 35px;
+    transition: all 0.5s;
+}
+
+.button a:hover{
+    background-color: #851531;
+}
+
+.h2{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    padding-bottom: 18px;
+}
+
+.h2 h2{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    word-spacing: 3px;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line hr{
+    width: 5%;
+    height: 3px;
+    border: transparent;
+    background-color: #fb2056;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.h1 h1{
+    font-size: 69px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.btn1 a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 26px;
+    background-color: #fb2056;
+    padding: 12px 35px;
+    transition: all 0.5s;
+}
+
+.btn1 a:hover{
+    background-color: #851531;
+}
+
+/* -- testi -- */
+
+.testi{
+    padding-top: 70px;
+}
+
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1 p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #404040;
+}
+
+.li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.li p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #404040;
+}
+
+.h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.h3 h1{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.line1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.line1 hr{
+    width: 7%;
+    height: 3px;
+    border: transparent;
+    background-color: #fb2056;
+}
+
+/* -- image section-- */
+
+.tain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 80px;
+    margin-left: 20px;
+    height: 600px;
+    width: 95%;
+}
+
+.col1{
+    width: 35%;
+}
+
+.img2{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+}
+
+.img2 img{
+    width: 500px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 10px 10px 0 1px rgb(0 0 0 / 7%);
+}
+
+.h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.h4 h3{
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 2px;
+}
+
+.p2{
+    padding-top: 10px;
+}
+
+.p2 p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-left:30px;
+    line-height: 29px;
+    color: #404040;
+    text-align: center;
+}
+
+.btn2{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn2 a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    word-spacing: 5px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 26px;
+    background-color: #fb2056;
+    padding: 14px 40px;
+    transition: all 0.5s;
+}
+
+.btn2 a:hover{
+    background-color: #851531;
+}
+
